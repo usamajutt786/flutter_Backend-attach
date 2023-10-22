@@ -1,0 +1,8 @@
+npm
+npm init...yes 
+npm install express nodemon mongoose
+
+//express-> for creating server
+// nodemon-> server auto save pr refresh ho jay 
+// mongoos-> mogodb ko connect krny k liy 
+ 
