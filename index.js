@@ -5,7 +5,7 @@ app= express() // object of express
 app.post('/',(req,res)=>{
     // console.log(req);
     console.log(req);
-    res.json({'hii':"okk"})
+    res.json({'hii':"okk kar"})
 });
 
 // listen funtion ko continuosly run krta rehtaha 
