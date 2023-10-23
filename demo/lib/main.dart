@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
                 onPressed: () async {
                   print("ok ha boss");
                   final response =
-                      await http.get(Uri.parse('http://localhost:3000'));
+                      await http.get(Uri.parse('http://localhost:3000/'));
 
                   if (response.statusCode == 200) {
                     // If the server returns a 200 OK response, parse the response body
