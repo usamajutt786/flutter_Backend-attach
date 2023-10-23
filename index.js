@@ -2,7 +2,7 @@ express = require('express')// import"material.dart' matlab k iski headerfile
 //ha har kisi me use krni ha 
 app= express() // object of express
 
-app.post('/',(req,res)=>{
+app.get('/',(req,res)=>{
     // console.log(req);
     console.log(req);
     res.json({'hii':"okk kar"})
